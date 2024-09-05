@@ -1,0 +1,64 @@
+@font-face {
+    font-family: iAWriterMonoS;
+    src: url(iAWriterMonoS-Regular.woff);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Container */
+.container {
+    background-color: #d4d4d4;
+    color: #37352f;
+    clear: both;
+    display: table;
+    padding: 4em;
+    border-radius: 4em;
+}
+
+/* Clock */
+
+.clock {
+    /* Centers the div. This took too long to figure out*/
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* Font shit */
+    font-family:'iAWriterMonoS', Courier, monospace;
+    font-size: 70vh;
+    line-height: .80em;
+}
+
+#separator {
+    position: relative;
+    bottom: .075em;
+    animation: blink 2s steps(1) infinite;    
+}
+
+@keyframes blink {
+    0%  {opacity: 0%;}
+    50% {opacity: 100%;}
+}
+
+
+/* Current Date */
+
+.currentdate{
+    /* Centers the div. This took too long to figure out*/
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /* Font shit */
+    font-family:'iAWriterMonoS', Courier, monospace;
+    font-size: 20vh;
+    line-height: 1.25em;
+    padding-left: .25em;
+}
