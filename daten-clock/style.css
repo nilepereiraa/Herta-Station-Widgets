@@ -15,8 +15,8 @@ body {
     color: #37352f;
     clear: both;
     display: table;
-    padding: 2em;
-    border-radius: 2em;
+    padding: 1.5em;
+    border-radius: 1em;
 }
 
 /* Clock */
@@ -31,7 +31,7 @@ body {
     align-items: center;
     /* Font shit */
     font-family:'iAWriterMonoS', Courier, monospace;
-    font-size: 15vw;
+    font-size: 17.5vw;
     line-height: .80em;
 }
 
@@ -60,7 +60,7 @@ body {
 
     /* Font shit */
     font-family:'iAWriterMonoS', Courier, monospace;
-    font-size: 4vw;
+    font-size: 5vw;
     line-height: 1.25em;
     padding-left: .25em;
 }
