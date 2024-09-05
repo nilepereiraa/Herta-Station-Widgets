@@ -2,11 +2,17 @@ function currentTime(){
     var time = new Date();
     h = time.getHours();
     m = time.getMinutes();
+    // Checks if AM or PM
     if (h >= 12){
         var ampm = "PM";
     } else {
         var ampm = "AM";
     }
+    // Converts to 12hr time
+    if (h > 12){
+        h = h - 12;
+    }
+    // Adds a 0 if less than 10
     if (m < 10){
         m = "0" + m;
     }
