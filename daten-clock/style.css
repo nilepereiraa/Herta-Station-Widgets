@@ -15,8 +15,8 @@ body {
     color: #37352f;
     clear: both;
     display: table;
-    padding: 4em;
-    border-radius: 4em;
+    padding: 3em 3em 2.5em 3em;
+    border-radius: 2em;
 }
 
 /* Clock */
@@ -24,13 +24,14 @@ body {
 .clock {
     /* Centers the div. This took too long to figure out*/
     width: 100%;
-    height: 80%;
+    max-width: 100%;
+    height: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
     /* Font shit */
     font-family:'iAWriterMonoS', Courier, monospace;
-    font-size: 70vh;
+    font-size: 20vw;
     line-height: .80em;
 }
 
@@ -51,14 +52,15 @@ body {
 .currentdate{
     /* Centers the div. This took too long to figure out*/
     width: 100%;
-    height: 20%;
+    max-width: 100%;
+    height: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
 
     /* Font shit */
     font-family:'iAWriterMonoS', Courier, monospace;
-    font-size: 20vh;
+    font-size: 6vw;
     line-height: 1.25em;
     padding-left: .25em;
 }

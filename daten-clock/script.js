@@ -5,11 +5,13 @@ function currentTime(){
     if (h >= 12){
         var ampm = "PM";
     } else {
-        h = "0" + h;
         var ampm = "AM";
     }
     if (m < 10){
         m = "0" + m;
+    }
+    if (h < 10){
+        h = "0" + h;
     }
     document.getElementById("hour").innerHTML = h;
     document.getElementById("min").innerHTML = m;
